@@ -33,13 +33,14 @@ a {
   .main-logo {
     width: 220px;
     height: 45px;
-    background: url(img/main-logo.svg}
+    background: url('img/main-logo.svg')
+  }
 }
 @media screen and (max-width: 767px) {
   .main-logo {
     width: 115px;
     height: 20px;
-    background: url(https://previews.dropbox.com/p/orig/AAM9cjnkRrYTHggrC-tym2Y7ynq9bu5G5q9m1OGDkrJKoup-5ERl7yXTWOthJ6Nnw6XL0yCu-MFsDjxy8bpxhF4whoWXnoMnLFilYhi5TO0PI7MCwFZM_tCC0LzYJYmVOTZHxE_fB76qdaW3Tv4mNHJd/p.svg?size=1280x960&size_mode=3) center center no-repeat;
+    background: url('img/logotype-footer.svg')
   }
 }
 .main-logo-desktop {
@@ -202,7 +203,7 @@ a {
   .why-do-title-img {
     width: 196px;
     height: 60px;
-    background: url(https://previews.dropbox.com/p/orig/AAOpJ9d82JYzUVsRjFqCeMIfk3GnKJV8_3n6ng42cHNc-rIclqYZc1zHa0MouM9Vjgl70pISGsNUuOKrPv5GdONEm9VoGNVPmF3DmClmtC8zYI-6LxUASdihmBHJqX1llh84P5v0tthpd1Op2BOL_rjH/p.svg?size=1280x960&size_mode=3) center center no-repeat;
+    background: url('img/why-choose.svg') center center no-repeat;
     margin: 0 auto;
     padding: 30px 0;
   }
@@ -211,7 +212,7 @@ a {
   .why-do-title-img {
     width: 90px;
     height: 310px;
-    background: url(https://previews.dropbox.com/p/orig/AAOvdskiWHr4IaGjXlNDkoUu1rU23pMcRo0qIP0N3g-SBfJC-044JCNoL6sHVIt4fqc_AbIRE2rOWfWKyByTtvp72uuRLkstBO2k2IlgP0oQwuQLdoMnBUJQabBTRReJVUDe3-3Hv_8_E1PjEJMu3tC3/p.svg?size=1280x960&size_mode=3) center center no-repeat;
+    background: url('img/sm-why-choose.svg') center center no-repeat;
     background-size: cover;
     position: absolute;
     margin-top: -20px;
@@ -225,7 +226,7 @@ a {
 }
 .article-blk .why-img-blk {
   display: flex;
-  background-image: url('https://images.unsplash.com/photo-1519730722595-a5ff788dea4d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2712a33fe9b13532f0682ac4e1e749b8&auto=format&fit=crop&w=500&q=60'), linear-gradient(to right bottom, rgba(255, 225, 128, .2), rgba(63, 93, 69, .2));
+  background-image: url('img/why-eat.svg'), linear-gradient(to right bottom, rgba(255, 225, 128, .2), rgba(63, 93, 69, .2));
   background-size: cover;
   background-position: center center;
 }
