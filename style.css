@@ -33,8 +33,7 @@ a {
   .main-logo {
     width: 220px;
     height: 45px;
-    background: url(https://previews.dropbox.com/p/orig/AAOOm_3reuZoIx2Ry35hXcfb306bHW1tdcbdcaNU2pjiSItFdFs6E9vbCRWbsbsCS0QUWIsOPsSpW08r-uTTgqqgn2XfzKPbGMvzwRzqlFoaqNOt0JEJfYlvk3XrZPdgYpd9rqwkn6y7Sp3GcK81yJcD/p.svg?size=1280x960&size_mode=3) center center no-repeat;
-  }
+    background: url(img/main-logo.svg}
 }
 @media screen and (max-width: 767px) {
   .main-logo {
