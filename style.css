@@ -33,14 +33,14 @@ a {
   .main-logo {
     width: 220px;
     height: 45px;
-    background: url('img/main-logo.svg')
+    background: url('img/main-logo.svg')no-repeat;
   }
 }
 @media screen and (max-width: 767px) {
   .main-logo {
     width: 115px;
     height: 20px;
-    background: url('img/logotype-footer.svg')
+    background: url('img/logotype-footer.svg')no-repeat;
   }
 }
 .main-logo-desktop {
@@ -203,7 +203,7 @@ a {
   .why-do-title-img {
     width: 196px;
     height: 60px;
-    background: url('img/why-choose.svg') center center no-repeat;
+    background: url('img/sm-why-choose.svg') center center no-repeat;
     margin: 0 auto;
     padding: 30px 0;
   }
@@ -212,7 +212,7 @@ a {
   .why-do-title-img {
     width: 90px;
     height: 310px;
-    background: url('img/sm-why-choose.svg') center center no-repeat;
+    background: url('img/why-choose.svg') center center no-repeat;
     background-size: cover;
     position: absolute;
     margin-top: -20px;
@@ -226,7 +226,7 @@ a {
 }
 .article-blk .why-img-blk {
   display: flex;
-  background-image: url('img/why-eat.svg'), linear-gradient(to right bottom, rgba(255, 225, 128, .2), rgba(63, 93, 69, .2));
+  background-image: url('https://images.unsplash.com/photo-1519730722595-a5ff788dea4d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2712a33fe9b13532f0682ac4e1e749b8&auto=format&fit=crop&w=500&q=60'), linear-gradient(to right bottom, rgba(255, 225, 128, .2), rgba(63, 93, 69, .2));
   background-size: cover;
   background-position: center center;
 }
@@ -283,12 +283,12 @@ a {
 }
 @media screen and (max-width: 767px) {
   .why-eat-blk .why-do-title-img {
-    background: url(https://previews.dropbox.com/p/orig/AAPwE1CCzuA5YDYFg49Kw7f570XdSV7aYto6evfTqTEeHYRWR5M756UfSIfjOENVPONAIPOL81rfCRiBIQysnImgLsSJl0D1oSE8WqgP0DyACE-dMq3fr4SWQihTArmOJRZSve-opMsXl_p4qLHnHgOJ/p.svg?size=1280x960&size_mode=3) center center no-repeat;
+    background: url('img/sm-why-eat.svg') center center no-repeat;
   }
 }
 @media screen and (min-width: 768px) {
   .why-eat-blk .why-do-title-img {
-    background: url(https://previews.dropbox.com/p/orig/AANXT4Xg3PvqMHb4N0mon9Sd0wuSSjiBDlm8FhriddigG5kLJwI9c-Tpl4d5CJY_r-zvSLLI-k8uDB5IwFd8uj76LeIG4Q24qTpQX_-C73n_pcElju9cxAHt3-x7SYKES6MB0MU0BACpkAaUHLYQbg4k/p.svg?size=1280x960&size_mode=3) center center no-repeat;
+    background: url('img/why-eat.svg') center center no-repeat;
   }
 }
 .why-eat-blk .why-img-blk {
@@ -310,7 +310,7 @@ a {
   .noreason-title-img {
     width: 196px;
     height: 60px;
-    background: url(https://previews.dropbox.com/p/orig/AAMixynNUqLW5ErW7QBpF2zHBMmZvOWyqH9bqPDJK2R1yKYLYIckhx6W0CAiMobp6hAudtD8nOL0-jeZyZjX_ofmZtZYdcqKKzDhUu3AnjdIMlg8Htu-kMaWnAS_zabvzYxYOXksRjCG_tFqjpLMLPWk/p.svg?size=1280x960&size_mode=3) center center no-repeat;
+    background: url('img/sm-no-reason.svg') center center no-repeat;
     margin-top: 30px;
   }
 }
@@ -318,7 +318,7 @@ a {
   .noreason-title-img {
     width: 90px;
     height: 485px;
-    background: url(https://previews.dropbox.com/p/orig/AANnkFPDRzSmyLihfuhzJTl0fLEifanGyxQ8RqP9Wv2lIBOVMQ69TFwMcm8zsoi5yM7dtcanaUF2ybAevBoNSzidFvScSeQLacIU-L__8zibBQXF-QRg8rHYLs4VC5ZjGRl9FWKa7GudiBglKxjsWs-f/p.svg?size=1280x960&size_mode=3) center center no-repeat;
+    background: url('img/no-reason.svg') center center no-repeat;
     background-size: contain;
   }
 }
@@ -474,7 +474,7 @@ a {
   width: 40px;
   height: 40px;
   margin-right: 20px;
-  background: url(https://previews.dropbox.com/p/orig/AAPFUWOKFFHHr5szmArO96OzuEyNQllodK6jKtCmkrZs_QZtjn2yet8-KPOBTPvmD60_dgMBjdvtZDDourQcnYk_gvcz7R1Pcc9cyqRUGPAMQ1TBABFjWMyvucFQ5dnvRqhzYhQ4cQWab-fCJj4SkN__/p.svg?size=1280x960&size_mode=3) center center no-repeat;
+  background: url('img/logo-light.svg') center center no-repeat;
 }
 @media screen and (max-width: 767px) {
   .mail-des {
@@ -533,7 +533,7 @@ a {
 }
 .footer-logo {
   display: block;
-  background: url(https://drive.google.com/open?id=1zdrZS5-KABs9UNmny4wikCBxgT92MRlC) center center no-repeat;
+  background: url('img/logotype-footer.svg') center center no-repeat;
   width: 175px;
   height: 28px;
   margin-bottom: 40px;
@@ -544,7 +544,7 @@ a {
   top: 0;
   right: 0;
   display: block;
-  background: url(https://previews.dropbox.com/p/orig/AAObOnFYTrYLbhYuSwqxuqNSQrIuxoR0z5RCyzUbOXqv4QzqprIDo40oWgYeGJFeyQ5Q2nMerBdHFXWwHO22tgMU36mi4cGxGTf0-TDOjYjSudaldrPWk2JcI0gTUBfsCeh9ZlQZ6dTQaP9A5zzjHLLv/p.svg?size=1280x960&size_mode=3) center center no-repeat;
+  background: url('img/good-day.svg') center center no-repeat;
   width: 70px;
   height: 250px;
 }
